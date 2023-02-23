@@ -48,14 +48,14 @@ public class Program {
 		seller.setName("John Wick");
 		sellerDao.update(seller);
 		System.out.println("Update completed!");
-		
+		/*
 		System.out.println();
 		System.out.println("=== Test 6: seller Delete ===");
 		System.out.println("Enter an id for delete test: ");
 		int id = sc.nextInt();
 		sellerDao.deleteById(id);
 		System.out.println("Delete completed");
-		
+		*/
 		sc.close();
 	}
 }
